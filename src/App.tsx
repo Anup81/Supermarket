@@ -10,6 +10,9 @@ import Login from "./pages/Login";
 import { Main } from "./pages/Main";
 import PageNotFound from "./pages/PageNotFound";
 import Products from "./pages/Products";
+import DalleMomos from "./pages/Products/DalleMomos";
+import Signatures from "./pages/Products/Signatures";
+import Snacks from "./pages/Products/Snacks";
 import Short_Code from "./pages/Short_Code";
 import SingleProduct from "./pages/SingleProduct";
 
@@ -28,6 +31,9 @@ const App = () => {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/forgotpassword" element={<ForgetPassword />} />
           <Route path="/products/:id" element={<SingleProduct />} />
+          <Route path="/dalle%20momos" element={<DalleMomos />} />
+          <Route path="/snacks" element={<Snacks />} />
+          <Route path="/signatures" element={<Signatures />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
