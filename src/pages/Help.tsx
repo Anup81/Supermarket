@@ -10,7 +10,6 @@ function Help() {
     <>
       <Header />
       <Navigation />
-      <Breadcumb />
       <Contact />
       <Footer />
     </>

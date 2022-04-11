@@ -1,9 +1,11 @@
 import React from "react";
+import Breadcumb from "../Breadcumb/Breadcumb";
 import { Link } from "react-router-dom";
 
 function Registration() {
   return (
     <>
+      <Breadcumb name="Create Account" />
       <div className="register">
         <div className="container">
           <h2>Register Here</h2>

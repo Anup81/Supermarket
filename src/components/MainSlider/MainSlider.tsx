@@ -30,7 +30,7 @@
 // export default MainSlider;
 
 import { useState, useEffect } from "react";
-import { sliderData } from "./slider-data";
+import { sliderData } from "./Slider_data";
 import "./Slider.css";
 
 const Slider = () => {

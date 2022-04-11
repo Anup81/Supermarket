@@ -1,6 +1,6 @@
 import React from "react";
 
-function Breadcumb() {
+function Breadcumb(props: any) {
   return (
     <div>
       <div className="breadcrumbs">
@@ -18,7 +18,7 @@ function Breadcumb() {
                 Home
               </a>
             </li>
-            <li className="active">Login Page</li>
+            <li className="active">{props.name}</li>
           </ol>
         </div>
       </div>

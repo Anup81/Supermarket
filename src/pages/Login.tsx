@@ -10,7 +10,6 @@ function Login() {
     <div>
       <Header />
       <Navigation />
-      <Breadcumb />
       <SignInPage />
       <Footer />
     </div>

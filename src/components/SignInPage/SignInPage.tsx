@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Breadcumb from "../Breadcumb/Breadcumb";
 
 function Login() {
   return (
     <>
+      <Breadcumb name="Login" />
       <div className="login">
         <div className="container">
           <h2>Login Form</h2>

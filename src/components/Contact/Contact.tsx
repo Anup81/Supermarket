@@ -1,8 +1,10 @@
 import React from "react";
+import Breadcumb from "../Breadcumb/Breadcumb";
 
 function contact() {
   return (
     <div>
+      <Breadcumb name="Contact" />
       <div className="about">
         <div className="w3_agileits_contact_grids">
           <div className="col-md-6 w3_agileits_contact_grid_left">

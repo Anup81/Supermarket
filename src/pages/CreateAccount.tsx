@@ -10,7 +10,6 @@ function CreateAccount() {
     <>
       <Header />
       <Navigation />
-      <Breadcumb />
       <Registration />
       <Footer />
     </>

@@ -79,7 +79,7 @@ function Footer() {
                 </li>
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  <a href="beverages.html">Beverages</a>
+                  <a href="/">Beverages</a>
                 </li>
               </ul>
             </div>

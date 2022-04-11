@@ -633,7 +633,7 @@ function TopBrands() {
                                 <div className="snipcart-thumb">
                                   <a href="products.html">
                                     <img
-                                      src="images/6.png"
+                                      src="assets/images/6.png"
                                       alt=" "
                                       className="img-responsive"
                                     />

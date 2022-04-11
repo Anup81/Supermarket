@@ -15,7 +15,7 @@ function Carousel() {
         </ol>
         <div className="carousel-inner" role="listbox">
           <div className="item active">
-            <a href="beverages.html">
+            <a href="/">
               {" "}
               <img
                 className="first-slide"
