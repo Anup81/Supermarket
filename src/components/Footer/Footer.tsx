@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Categories from "../Categories/Categories";
+import Login from "../SignInPage/SignInPage";
 
 function Footer() {
   return (
@@ -38,28 +41,28 @@ function Footer() {
               <ul className="info">
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  <a href="about.html">About Us</a>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  <a href="contact.html">Contact Us</a>
+                  <Link to="/help">Contact Us</Link>
                 </li>
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  <a href="short-codes.html">Short Codes</a>
+                  <Link to="/shortcode">Short Codes</Link>
                 </li>
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  <a href="faq.html">FAQ's</a>
+                  <Link to="/faq">FAQ's</Link>
                 </li>
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  <a href="products.html">Special Products</a>
+                  <Link to="/products">Special Products</Link>
                 </li>
               </ul>
             </div>
             <div className="col-md-3 w3_footer_grid">
-              <h3>Category</h3>
+              {/* <h3>Category</h3>
               <ul className="info">
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
@@ -81,7 +84,9 @@ function Footer() {
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
                   <a href="/">Beverages</a>
                 </li>
-              </ul>
+              </ul> */}
+
+              <Categories />
             </div>
             <div className="col-md-3 w3_footer_grid">
               <h3>Profile</h3>
@@ -96,11 +101,11 @@ function Footer() {
                 </li>
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  <a href="login.html">Login</a>
+                  <Link to="/login">Login</Link>
                 </li>
                 <li>
                   <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  <a href="registered.html">Create Account</a>
+                  <Link to="/registration">Create Account</Link>
                 </li>
               </ul>
             </div>

@@ -11,6 +11,7 @@ import Sort from "./Sort";
 import ReactPaginate from "react-paginate";
 
 import Categories from "../Categories/Categories";
+import Breadcumb from "../Breadcumb/Breadcumb";
 // import Categories from "../Category/Categories";
 
 const baseURL = process.env.REACT_APP_BASE_URL;
@@ -62,6 +63,7 @@ function ProductLists(): JSX.Element {
 
   return (
     <>
+      <Breadcumb name="Products" />;
       <div className="products">
         <Container>
           <Row>

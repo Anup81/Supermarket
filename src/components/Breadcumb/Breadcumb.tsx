@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Breadcumb(props: any) {
   return (
@@ -10,13 +11,13 @@ function Breadcumb(props: any) {
             data-wow-delay=".5s"
           >
             <li>
-              <a href="index.html">
+              <Link to="/">
                 <span
                   className="glyphicon glyphicon-home"
                   aria-hidden="true"
                 ></span>
                 Home
-              </a>
+              </Link>
             </li>
             <li className="active">{props.name}</li>
           </ol>

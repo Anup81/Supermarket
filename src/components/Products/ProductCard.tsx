@@ -30,7 +30,7 @@ function ProductCard(props: productProps) {
               <figure>
                 <div className="snipcart-item block">
                   <div className="snipcart-thumb">
-                    <Link to={`/shopNow/${props.id}`}>
+                    <Link to={`/products/${props.id}`}>
                       <img
                         src={props.image}
                         alt=" "

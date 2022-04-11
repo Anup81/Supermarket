@@ -2,17 +2,17 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import Navigation from "../components/Navigation/Navigation";
-import ProductLists from "../components/Products/ProductLists";
+import ShortCodes from "../components/ShortCode/ShortCodes";
 
-const Products = () => {
+const Short_Code = () => {
   return (
     <div>
       <Header />
       <Navigation />
-      <ProductLists />
+      <ShortCodes />
       <Footer />
     </div>
   );
 };
 
-export default Products;
+export default Short_Code;

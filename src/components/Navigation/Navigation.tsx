@@ -6,7 +6,7 @@ import axios from "axios";
 
 const Navigation = () => {
   const [categories, setCategories] = useState<MyRoot>();
-  const warehouse_id = 2;
+  const warehouse_id = 1;
   const apiKey: any = process.env.REACT_APP_API_KEY;
   // console.log(typeof warehouse_id);
 
