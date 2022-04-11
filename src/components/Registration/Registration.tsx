@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useState, useRef } from "react";
+import Breadcumb from "../Breadcumb/Breadcumb";
 
 const baseURL = process.env.REACT_APP_BASE_URL;
 const auth = process.env.REACT_APP_AUTH;
@@ -55,6 +56,7 @@ function Registration(): JSX.Element {
   };
   return (
     <>
+      <Breadcumb name="Create Account" />
       <div className="register">
         <div className="container">
           <h2>Register Here</h2>
