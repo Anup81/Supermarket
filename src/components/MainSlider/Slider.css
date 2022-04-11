@@ -1,0 +1,45 @@
+.slider {
+
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+.slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    /* transform: translateX(-50%); */
+    transition: all 2s -0.5s linear;
+
+  }
+
+@media screen and (min-width: 600px) {
+    .slide img{
+        width: 100%;
+        height: 100%;
+    } 
+}
+
+.content{
+    position: absolute;
+    top: 23rem;
+    left: 5rem;
+    width: 100%;
+    padding: 3rem;
+
+}
+
+.content > * {
+    color: white;
+    /* margin-bottom: 1rem; */
+}
+
+.current{
+    opacity: 1;
+    /* transform: translateX(1); */
+  }

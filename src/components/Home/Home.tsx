@@ -10,7 +10,7 @@ function Home() {
       <Navigation />
       <MainSlider />
       <TopBrands />
-      <Carousel />
+      {/* <Carousel /> */}
     </>
   );
 }
