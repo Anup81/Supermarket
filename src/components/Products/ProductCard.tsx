@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Col, Row, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import img1 from "../../images/offer.png";
 
 type productProps = {
   id: number;

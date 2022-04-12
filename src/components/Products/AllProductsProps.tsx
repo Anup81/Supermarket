@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import "../../Css/Products.css";
 
 type productProps = {
   offer: boolean;

@@ -12,7 +12,6 @@ import ReactPaginate from "react-paginate";
 
 import Categories from "../Categories/Categories";
 import Breadcumb from "../Breadcumb/Breadcumb";
-// import Categories from "../Category/Categories";
 
 const baseURL = process.env.REACT_APP_BASE_URL;
 const apiKey = "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6";
